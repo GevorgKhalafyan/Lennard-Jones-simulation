@@ -48,4 +48,11 @@ In the graphs below, the x-axes represent time; the orange graphs are $\overline
 
 <img align="center" width="1000" height="400" src="./images/Speeds.png">
 	
-As we can see, the obtained results are consistent with our expectations from theoretical considerations. First, in the graph of the logarithm of $\overline{\Delta v^{2} (t)}$, two different dependencies are visible before and after the time equal to the dynamic memory time; each blue curve can be approximated as a combination of 2 lines. Second, by taking into account that the blue line is a logarithmic graph, we ensure that the exponential nature of $\overline{\Delta v^{2} (t)}$ holds with high precision (slanted line)․ The second line (diffusion mode) shows the independence of the two systems, they completely forgot their initial state. And finally, it can be noted that everywhere the logarithms of $\overline{\Delta v^{2} (t)}$ go to the same constant, which means the s
+As we can see, the obtained results are consistent with our expectations from theoretical considerations. First, in the graph of the logarithm of $\overline{\Delta v^{2} (t)}$, two different dependencies are visible before and after the time equal to the dynamic memory time; each blue curve can be approximated as a combination of 2 lines. Second, by taking into account that the blue line is a logarithmic graph, we ensure that the exponential nature of $\overline{\Delta v^{2} (t)}$ holds with high precision (slanted line)․ The second line (diffusion mode) shows the independence of the two systems, they completely forgot their initial state. And finally, it can be noted that everywhere the logarithms of $\overline{\Delta v^{2} (t)}$ go to the same constant, which means the same final temperature.
+
+As a result, we get the following values for the dynamic memory time: 1.704, 1.701, 1.714, 1.686, 1.715, 1.730 (L-J units). Note that all values are pretty close, which is expected since the integration time steps are very small everywhere. This indicates that the experiment was performed accurately.
+And finally, we get the dynamic memory time of our system.
+
+<p align="center">
+$t_m = 1.71 ± 0.01$ (L-J units)
+</p>
